@@ -40,7 +40,6 @@ def is_bad_choice(choice: str):
         return False
     return is_bad_num_string(choice)
 
-
 def place_piece(col: int):
     global last_row
     global last_col
